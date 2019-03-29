@@ -1,0 +1,52 @@
+<html>
+<head>
+	<style>
+		/* Set the size of the div element that contains the map */
+		#map {
+			height: 50%;  /* The height is 400 pixels */
+			width: 50%;  /* The width is the width of the web page */
+		}
+	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="jumbotron">
+  			<h1 class="display-4" style="text-align: center"> Welcome to Google Map Coordinates Finder </h1>
+		</div>
+	
+	
+
+	<form action="https://microservice-php-235716.appspot.com" method="post">
+
+		<table border="0">
+
+			<tr>
+				<td> Name </td>
+				<td align="center"><input type="text" name="nameVal" size="30"></td>
+			</tr>
+			<tr>
+				<td>Latitude</td>
+				<td align="center"><input type="text" name="latVal" size="30" /></td>
+			</tr>
+
+			<tr>
+				<td>Longitude</td>
+				<td align="center"><input type="text" name="lngVal" size="30" /></td>
+			</tr>
+
+			<tr>
+				<td>Zoom</td>
+				<td align="center"><input type="text" name="zoomVal" size="30"  /></td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center"><input type="submit" value="Submit"/></td>
+			</tr>
+
+		</table>
+	</form>
+
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
